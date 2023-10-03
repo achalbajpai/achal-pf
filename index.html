@@ -6,6 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Add custom CSS for image placement */
+        .header {
+            display: flex;
+            align-items: center;
+        }
+
+        .my-photograph {
+            max-width: 200px;
+            /* Adjust the image width as needed */
+            margin-right: 20px;
+            /* Add some margin to separate the image from text */
+        }
+    </style>
     <title>Personal Portfolio</title>
 </head>
 
@@ -21,22 +35,26 @@
         <button class="btn">Contact Me</button>
     </nav>
 
-    <header class="container" style="background-image: url('your-header-image-url.jpg');">
-        <div class="content">
+    <header class="container">
+        <div class="content header">
+            <img src="https://cdn.discordapp.com/attachments/1156308377320820836/1158758785029001256/profile-pic.jpeg?ex=651d69b7&is=651c1837&hm=69947d099eb43adf8b95b9afe33d60113eec8cb1e4984c189ba0dd7ac47cc160&"
+                alt="Your Photograph" class="my-photograph">
             <span class="blur"></span>
             <span class="blur"></span>
-            <h4>THIS IS MY PORTFOLIO WEBSITE</h4>
-            <H1>Hi, I'm <span>Achal</span>, Student</H1>
-            <p>
-                My passion lies in utilizing the
-                latest technology
-                stacks to tackle complex problems. I'm dedicated to honing my skills in this field and building a
-                fulfilling career.
+            <div>
+                <h4>THIS IS MY PORTFOLIO WEBSITE</h4>
+                <H1>Hi, I'm <span>Achal</span>, Student</H1>
+                <p>
+                    My passion lies in utilizing the
+                    latest technology
+                    stacks to tackle complex problems. I'm dedicated to honing my skills in this field and building a
+                    fulfilling career.
 
-                In addition to my technical pursuits, I also posses interest in marketing, which I consider a valuable
-                side skill. I
-                actively contribute to open-source projects, always eager for new challenges.
-            </p>
+                    In addition to my technical pursuits, I also possess interest in marketing, which I consider a
+                    valuable
+                    side skill. I actively contribute to open-source projects, always eager for new challenges.
+                </p>
+            </div>
         </div>
     </header>
 
