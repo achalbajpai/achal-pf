@@ -38,7 +38,7 @@ export default function Component() {
           </div>
         </div>
         <div className="space-y-6">
-          <h2 className="text-3xl md:text-4xl font-semibold">Let's Connect</h2>
+          <h2 className="text-3xl md:text-4xl font-semibold">Let&apos;s Connect</h2>
           <div className="flex justify-center space-x-4">
             <Button variant="outline" size="icon" className="bg-transparent hover:bg-gray-800">
               <Twitter className="h-5 w-5" />
